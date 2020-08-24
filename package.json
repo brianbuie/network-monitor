@@ -1,0 +1,17 @@
+{
+  "name": "network-monitor-dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r esm start"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "date-fns": "^2.15.0",
+    "esm": "^3.2.25",
+    "lowdb": "^1.0.0",
+    "network": "^0.5.0",
+    "ping": "^0.2.3"
+  }
+}
